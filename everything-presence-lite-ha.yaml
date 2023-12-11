@@ -1,6 +1,5 @@
-substitutions:
-  name: "everything-presence-lite"
-  friendly_name: "Everything Presence Lite"
+  name: "presence-lite-2"
+  friendly_name: "Presence Lite 2"
   illuminance_update_interval: "2s"
   hidden_ssid: "false"
 
@@ -508,12 +507,12 @@ sensor:
 uart:
   id: uart_bus
   tx_pin: 
-    number: GPIO17
+    number: GPIO1
     mode:
       input: true
       pullup: true
   rx_pin: 
-    number: GPIO16
+    number: GPIO3
     mode:
       input: true
       pullup: true
